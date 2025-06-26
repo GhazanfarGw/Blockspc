@@ -36,7 +36,7 @@ const Dashboard = () => {
               className='pt-10 text-center mx-auto justify-center'
             >
                 <a
-                    href="https://t.me/+447759720000"
+                    href="https://t.me/BLOCKSPC"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bg-[#0847F7] w-full sm:w-60 justify-center mx-auto shadow-lg hover:bg-opacity-80 text-white items-center relative h-14 text-sm duration-200 px-6 flex rounded-sm gap-2"
