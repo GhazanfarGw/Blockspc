@@ -47,57 +47,57 @@ function Partners() {
     <div className='mx-0 px-5 items-center border-2 bg-[#EDF0FF]'>
       <div data-aos="zoom-in-up" data-aos-delay="300" className='max-w-screen-xl items-center mx-auto overflow-hidden'>
         <Slider {...settings} className='flex mx-auto items-center gap-4 pt-5'>
-            <Tooltip placement='bottom' className='py-5 justify-center items-center px-3'>
+            <Tooltip className='py-5 justify-center items-center px-3'>
               <img src='./1.jpg' alt='Image'/>
             </Tooltip>
 
-            <Tooltip placement='bottom' className='py-5 justify-center items-center px-3'>
+            <Tooltip className='py-5 justify-center items-center px-3'>
               <img src='./2.jpg' alt='Image'/>
             </Tooltip>
 
-            <Tooltip placement='bottom' className='py-5 justify-center items-center px-3'>
+            <Tooltip className='py-5 justify-center items-center px-3'>
               <img src='./3.jpg' alt='Image'/>
             </Tooltip>
 
-            <Tooltip placement='bottom' className='py-5 justify-center items-center px-3'>
+            <Tooltip className='py-5 justify-center items-center px-3'>
               <img src='./4.jpg' alt='Image'/>
             </Tooltip>
 
-            <Tooltip placement='bottom' className='py-5 justify-center items-center px-3'>
+            <Tooltip className='py-5 justify-center items-center px-3'>
               <img src='./5.jpg' alt='Image'/>
             </Tooltip>
 
-            <Tooltip placement='bottom' className='py-5 justify-center items-center px-3'>
+            <Tooltip className='py-5 justify-center items-center px-3'>
               <img src='./6.jpg' alt='Image'/>
             </Tooltip>
-            <Tooltip title="Elemis London" placement='bottom' className='py-5 justify-center items-center px-3'>
+            <Tooltip className='py-5 justify-center items-center px-3'>
                 <img src='./7.jpg' alt='Image'/>
             </Tooltip>
-            <Tooltip title="Elemis London" placement='bottom' className='py-5 justify-center items-center px-3'>
+            <Tooltip className='py-5 justify-center items-center px-3'>
                 <img src='./8.jpg' alt='Image'/>
             </Tooltip>
-            <Tooltip title="Elemis London" placement='bottom' className='py-5 justify-center items-center px-3'>
+            <Tooltip className='py-5 justify-center items-center px-3'>
                 <img src='./9.jpg' alt='Image'/>
             </Tooltip>
-            <Tooltip title="Elemis London" placement='bottom' className='py-5 justify-center items-center px-3'>
+            <Tooltip className='py-5 justify-center items-center px-3'>
                 <img src='./10.jpg' alt='Image'/>
             </Tooltip>
-            <Tooltip title="Elemis London" placement='bottom' className='py-5 justify-center items-center px-3'>
+            <Tooltip className='py-5 justify-center items-center px-3'>
                 <img src='./11.jpg' alt='Image'/>
             </Tooltip>
-            <Tooltip title="Elemis London" placement='bottom' className='py-5 justify-center items-center px-3'>
+            <Tooltip className='py-5 justify-center items-center px-3'>
                 <img src='./12.jpg' alt='Image'/>
             </Tooltip>
-            <Tooltip title="Elemis London" placement='bottom' className='py-5 justify-center items-center px-3'>
+            <Tooltip className='py-5 justify-center items-center px-3'>
                 <img src='./13.jpg' alt='Image'/>
             </Tooltip>
-            <Tooltip title="Elemis London" placement='bottom' className='py-5 justify-center items-center px-3'>
+            <Tooltip className='py-5 justify-center items-center px-3'>
                 <img src='./14.jpg' alt='Image'/>
             </Tooltip>
-            <Tooltip title="Elemis London" placement='bottom' className='py-5 justify-center items-center px-3'>
+            <Tooltip className='py-5 justify-center items-center px-3'>
                 <img src='./15.jpg' alt='Image'/>
             </Tooltip>
-            <Tooltip title="Elemis London" placement='bottom' className='py-5 justify-center items-center px-3'>
+            <Tooltip className='py-5 justify-center items-center px-3'>
                 <img src='./16.jpg' alt='Image'/>
             </Tooltip>
         </Slider>
