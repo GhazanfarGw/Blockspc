@@ -19,10 +19,10 @@ function Anywhere() {
                                     <img className='py-4 px-3' src="icons8-consultation-100.png" alt="" />
                                 </div>
                                 <h1 data-aos="zoom-in-up" data-aos-delay="300" data-aos-duration="400" className='text-lg md:font-medium lg:pt-5 pt-3 text-[#1A2B6B]'>
-                                    Block Sphere Checkout for iOS and Android
+                                    Blocksphere Checkout for iOS and Android
                                 </h1>
                                 <p data-aos="zoom-in-up" data-aos-delay="300" data-aos-duration="400" className='md:pt-5 pt-3 text-[#6D7380] text-sm leading-normal'>
-                                    Accept blockchain payments across multiple devices with the Block Sphere Checkout app.
+                                    Accept blockchain payments across multiple devices with the Blocksphere Checkout app.
                                 </p>
                             </div>
                             <div className='border px-5 py-5 md:py-16 md:px-5 md:mt-10 border-opacity-30 mt-5 hover:scale-105 duration-200 bg-[#fff] hover:cursor-wait'>
@@ -33,7 +33,7 @@ function Anywhere() {
                                     Never touch crypto
                                 </h1>
                                 <p data-aos="zoom-in-up" data-aos-delay="300" data-aos-duration="400" className='md:pt-5 pt-3 text-[#6D7380] text-sm leading-normal'>
-                                    Block Sphere shields you from the price volatility of Bitcoin and other cryptocurrencies. You get every dollar or euro of what you charge, minus a low transaction fee.
+                                    Blocksphere shields you from the price volatility of Bitcoin and other cryptocurrencies. You get every dollar or euro of what you charge, minus a low transaction fee.
                                 </p>
                             </div>
                             <div className='border px-5 py-5 md:py-16 md:px-5 md:mt-10 border-opacity-30 mt-5 hover:scale-105 duration-200 bg-[#fff] hover:cursor-wait'>
@@ -44,7 +44,7 @@ function Anywhere() {
                                     Quick bank settlement
                                 </h1>
                                 <p data-aos="zoom-in-up" data-aos-delay="300" data-aos-duration="400" className='md:pt-5 pt-3 text-[#6D7380] text-sm leading-normal'>
-                                    Block Sphere can settle funds via local bank transfer (ACH, SEPA, FPS...)
+                                Blocksphere can settle funds via local bank transfer (ACH, SEPA, FPS...)
                                 </p>
                             </div>
                         </div>
@@ -55,5 +55,6 @@ function Anywhere() {
         </>
     );
 }
+
 
 export default Anywhere;
