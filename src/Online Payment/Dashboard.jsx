@@ -20,7 +20,7 @@ function Dashboard() {
                         </div>
                         <div className='third md:pt-10 pt-5 text-base tracking-wider duration-500 max-w-screen-lg mx-auto justify-center'>
                             <p data-aos="zoom-in-up" data-aos-delay="300" data-aos-duration="400" className='text-[#000000] text-center leading-normal '> 
-                               Accept Bitcoin and 100+ other cryptocurrencies, gain new customers, and avoid the cost of high fees and chargebacks. From setup to settlement, Block Sphere makes accepting these payments easy.
+                               Accept Bitcoin and 100+ other cryptocurrencies, gain new customers, and avoid the cost of high fees and chargebacks. From setup to settlement, Blocksphere makes accepting these payments easy.
                             </p>
                             <div className="fourth md:mt-10 mx-auto w-52 hover:scale-105 mt-5 hover:px-4 items-center text-[#fff] md:text-sm text-sm font-light scroll-smooth duration-500 bg-[#0847F7] relative h-10 tracking-wide uppercase justify-center text-center flex rounded-sm">
                                 <a className="text-center mx-auto justify-center" 
@@ -38,3 +38,4 @@ function Dashboard() {
 }
 
 export default Dashboard
+
