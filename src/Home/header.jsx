@@ -53,19 +53,19 @@ function Navbar() {
 
             {/* Mega Menu Content */}
             {megaMenuOpen && (
-              <div className="absolute left-0 mt-2 w-[700px] bg-white shadow-lg p-6 grid grid-cols-2 gap-6 border rounded-md">
+              <div className="absolute left-0 mt-6 w-[700px] bg-white shadow-lg p-6 grid grid-cols-2 gap-6 border rounded-md">
                 <div>
                   <h3 className="font-semibold mb-3 text-gray-800">Accept Crypto</h3>
                   <ul className="space-y-2 text-sm">
-                    <li><Link to="/online-payments" className="hover:text-[#1A2B6B]">Online Payments</Link></li>
-                    <li><Link to="/billing" className="hover:text-[#1A2B6B]">Billing</Link></li>
-                    <li><Link to="/retail" className="hover:text-[#1A2B6B]">Retail</Link></li>
+                    <li><Link to="/online-payments" className="hover:text-[#1A2B6B] border-b py-2">Online Payments</Link></li>
+                    <li><Link to="/billing" className="hover:text-[#1A2B6B] border-b py-2">Billing</Link></li>
+                    <li><Link to="/retail" className="hover:text-[#1A2B6B] border-b py-2">Retail</Link></li>
                   </ul>
                 </div>
                 <div>
                   <h3 className="font-semibold mb-3 text-gray-800">Send Crypto</h3>
                   <ul className="space-y-2 text-sm">
-                    <li><Link to="/payroll" className="hover:text-[#1A2B6B]">Crypto Payroll</Link></li>
+                    <li><Link to="/payroll" className="hover:text-[#1A2B6B] border-b py-2">Crypto Payroll</Link></li>
                   </ul>
                 </div>
               </div>
@@ -96,24 +96,30 @@ function Navbar() {
           open ? "left-0" : "left-[-100%]"
         }`}
       >
-        <ul className="space-y-6 text-sm">
-          <li><Link to="/" onClick={() => setOpen(false)}>Home</Link></li>
-          <li><Link to="/about-us" onClick={() => setOpen(false)}>About Us</Link></li>
+        <ul className="text-sm">
+          <li className='tracking-wider hover:bg-[#1a1e24] px-8 py-3 flex flex-row items-center duration-200 border-b hover:text-[#1A2B6B] text-[#000] border-[#000000] border-opacity-10 text-sm'><Link to="/" onClick={() => setOpen(false)}>Home</Link></li>
+          <li className='tracking-wider hover:bg-[#1a1e24] px-8 py-2 flex flex-row items-center duration-200 border-b hover:text-[#1A2B6B] text-[#000] border-[#000000] border-opacity-10 text-sm'><Link to="/about-us" onClick={() => setOpen(false)}>About Us</Link></li>
+          <li className='tracking-wider hover:bg-[#1a1e24] px-8 py-2 flex flex-row items-center duration-200 border-b hover:text-[#1A2B6B] text-[#000] border-[#000000] border-opacity-10 text-sm'><Link to="/payroll" onClick={() => setOpen(false)}>Crypto Payroll</Link></li>
           <li>
             <details>
-              <summary className="cursor-pointer">Accept Crypto</summary>
-              <ul className="pl-4 mt-2 space-y-2">
-                <li><Link to="/online-payments">Online Payments</Link></li>
-                <li><Link to="/billing">Billing</Link></li>
-                <li><Link to="/retail">Retail</Link></li>
+              <summary className="cursor-pointer justify-between tracking-wider hover:bg-[#859bbd] px-8 py-2 flex flex-row items-center duration-200 border-b hover:text-[#1A2B6B] text-[#000] border-[#000000] border-opacity-10 text-sm">
+                Accept Crypto
+              <span className="text-xs">▼</span>
+              </summary>
+              <ul className="">
+                <li className='tracking-wider hover:bg-[#1a1e24] px-8 py-2 flex flex-row items-center duration-200 border-b hover:text-[#1A2B6B] text-[#000] border-[#000000] border-opacity-10 text-sm'><Link to="/online-payments">Online Payments</Link></li>
+                <li className='tracking-wider hover:bg-[#1a1e24] px-8 py-2 flex flex-row items-center duration-200 border-b hover:text-[#1A2B6B] text-[#000] border-[#000000] border-opacity-10 text-sm'><Link to="/billing">Billing</Link></li>
+                <li className='tracking-wider hover:bg-[#1a1e24] px-8 py-2 flex flex-row items-center duration-200 border-b hover:text-[#1A2B6B] text-[#000] border-[#000000] border-opacity-10 text-sm'><Link to="/retail">Retail</Link></li>
               </ul>
             </details>
           </li>
-          <li><Link to="/payroll" onClick={() => setOpen(false)}>Crypto Payroll</Link></li>
+            <p className='text-sm px-8 text-[#4b4b4b] pt-8'>
+              Blocksphere offers to onvert your cryptocurrency into cash, having a trusted partner is essential to ensure a smooth, secure, and efficient process.
+            </p>
           <li>
             <Link
               to="/contact-us"
-              className="border border-[#0847F7] w-full block text-center py-2 rounded-sm text-[#0847F7] hover:bg-[#0847F7] hover:text-white"
+              className="border border-[#0847F7] w-full block text-center py-2 rounded-sm text-[#0847F7] hover:bg-[#0847F7] hover:text-white mt-5"
               onClick={() => setOpen(false)}
             >
               Contact Us
@@ -272,5 +278,6 @@ export default Navbar;
 
 //   );
 // };
+
 
 // export default Navbar;
