@@ -27,7 +27,7 @@ function Getting() {
                                 <p data-aos="zoom-in-up" data-aos-delay="300" data-aos-duration="400" className='md:pt-5 pt-3 text-[#6D7380] text-sm leading-normal'>
                                     Create a bill from your merchant dashboard and send to your client.
                                 </p>
-                                <img className="text-center mx-auto pt-4" src="./PnPm8v3l6irCGNgPbHWtLda8Da0.svg" alt="" />
+                                <img className="text-center mx-auto pt-4 w-64" src="./Untitled-1 copy.jpg" alt="" />
                             </div>
                             <div className='border px-5 py-5 md:py-16 text-center mx-auto md:px-5 md:mt-10 border-opacity-30 mt-5 hover:scale-105 duration-200 bg-[#fff] hover:cursor-wait'>
                                 <div data-aos="zoom-in-up" data-aos-delay="300" data-aos-duration="400" className='bg-[#F5F7FD] h-14 w-14 rounded-full items-center border text-center mx-auto'>
@@ -73,5 +73,6 @@ function Getting() {
         </>
     );
 }
+
 
 export default Getting;
