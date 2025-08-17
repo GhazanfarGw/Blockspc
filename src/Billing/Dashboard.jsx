@@ -33,7 +33,7 @@ function Dashboard() {
                     </div>
                 </div>
                 <div data-aos="zoom-in-up" data-aos-delay="300" data-aos-duration="400" className='max-w-screen-sm mx-auto pt-40 hidden lg:block md:block'>
-                    <img src="./it9Oy44KkkN6MMefxAjpGax5yak.svg" alt="" />
+                    <img src="./Untitled-1 copy.jpg" alt="" />
                 </div>
             </div>
         </div>
@@ -42,3 +42,4 @@ function Dashboard() {
 }
 
 export default Dashboard
+
