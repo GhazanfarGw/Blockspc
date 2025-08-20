@@ -53,7 +53,7 @@ function Navbar() {
 
             {/* Mega Menu Content */}
             {megaMenuOpen && (
-              <div className="absolute left-0 mt-6 w-[700px] bg-white shadow-lg p-6 grid grid-cols-2 gap-6 border rounded-md">
+              <div className="absolute left-0 mt-4 w-[700px] bg-white shadow-lg p-6 grid grid-cols-2 gap-6 border rounded-md">
                 <div>
                   <h3 className="font-semibold mb-3 text-gray-800">Accept Crypto</h3>
                   <ul className="space-y-2 text-sm">
@@ -281,3 +281,4 @@ export default Navbar;
 
 
 // export default Navbar;
+
