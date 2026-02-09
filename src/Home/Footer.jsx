@@ -18,7 +18,7 @@ const Footer = () => {
                             Empower your business with Safeguard digital assets
                         </h1>
                         <p className='text-sm text-[#C3CDD3] md:pt-4 pt-3'>
-                            Blocksphere offers to onvert your cryptocurrency into cash, having a trusted partner is essential to ensure a smooth, secure, and efficient process.
+                            Blocksphere offers to convert your cryptocurrency into cash, having a trusted partner is essential to ensure a smooth, secure, and efficient process.
                         </p>
                     </div>
                     <div className='md:pt-0 pt-10'>
@@ -108,5 +108,6 @@ const Footer = () => {
 
 
 export default Footer;
+
 
 
